@@ -1,0 +1,197 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section{
+    width: 100%;
+}
+
+nav ul li{
+    list-style: none;
+    font-size: 13px;
+    margin-right: 15px;
+}
+
+li:hover{
+    text-decoration: underline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a img{
+    width: 20px;
+    height: 20px;
+}
+
+.puntos:hover{
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.inicio{
+    color: white;
+    background-color: steelblue;
+    padding: 8px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.googleimg{
+    display: flex;
+    justify-content: center;
+}
+
+.div-input{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    height: 44px;
+    width: 40%; 
+    margin-top: 25px;
+}
+
+input{
+    height: 34px;
+    margin-top: 5px;
+    outline: none;
+    border: none;
+}
+
+.botones{
+    padding-top: 16px; 
+    display: flex;
+    justify-content: center;
+}
+
+.botones a{
+    margin: 11px 4px;
+    background-color: #f8f9fa;
+    text-align: center;
+    border-radius: 4px;
+    padding: 10px 16px;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    box-sizing: content-box;
+    border: 1px solid #fff;
+}
+
+.botones a:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+    
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    color: #3c4043;
+    height: 100px; 
+    font-size: 13px;
+    margin: 0px;
+}
+
+.info a{
+    color: blue;
+}
+
+footer{
+    background-color: #f2f2f2;
+    width: 100%;
+    color: #70757a;
+    margin-top: 136px; 
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    position: fixed;
+    bottom: 0px;
+}
+
+footer div p{
+    padding: 15px 30px;
+    margin: 0px;
+}
+
+footer div ul a{
+    color: #70757a;
+}
+
+.column{
+    border-bottom: 1px solid #dadce0;
+}
+
+.column-1 ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column-1 ul li{
+    list-style: none;
+    padding: 0px 10px;
+}
+
+.column-1 ul li a{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.column-2 ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column-2 ul li{
+    list-style: none;
+    padding: 5px;
+}
+
+.column-2 ul li a{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.div-input img{
+    width: 22px;
+    height: 22px;
+}
+
+form{
+    width: 75%;
+}
+
+input{
+    width: 100%;
+}
+
+@media only screen and (max-width: 552px){
+    .div-input{
+        width: 80%;
+    }
+
+    input{
+        width: 100%;
+    }
+}
